@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/listing_swipe_refresh"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.ui.fragment.base.ListingsFragment"
+    android:background="#eee">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listing_recycler"
+        android:name="com.fastie4.etsyclient.presentation.ui.fragment.ListingFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="2dp"
+        android:clipToPadding="false"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/fragment_listing" />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

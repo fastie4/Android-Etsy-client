@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Etsy Client</string>
+    <string name="search_results">Search result</string>
+    <string name="listing_details">Details</string>
+    <string name="debug">debug</string>
+    <string name="tab_text_1">Search</string>
+    <string name="tab_text_2">Saved</string>
+    <string name="keywords">Keywords</string>
+    <string name="categoryEntity">Category</string>
+    <string name="submit">Submit</string>
+    <string name="favorite">Favorite</string>
+    <string name="add_to_favorites">Product added to favorites</string>
+    <string name="remove_from_favorites">Product removed from favorites</string>
+    <string name="price_currency">$%1$s</string>
+</resources>
